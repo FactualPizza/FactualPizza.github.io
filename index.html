@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Project: Blog</title>
+</head>
+<style>
+    body {
+        font-family: 'Times New Roman', sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #cc7e7e;
+        background-image: url('img/mars.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .content-wrapper {
+        max-width: 800px;
+        margin: 40px auto;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 30px 40px;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #b30000;
+    }
+
+    a {
+        color: #007db3;
+    }
+
+    a:hover {
+        color: aqua;
+    }
+
+    ul {
+        list-style-type: square;
+    }
+
+    h6 {
+        color: #261503;
+        font-weight: normal;
+        font-size: 0.9em;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .first-post {
+        color: #261503;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+
+    .second-post {
+        color: #261503;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+
+    .third-post {
+        color: #261503;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+
+    #first-post {
+        background-color: #2c60b9;
+        color: white;
+
+    }
+
+    #second-post {
+        background-color: #b30000;
+        color: white;
+
+    }
+
+    #third-post {
+        background-color: #38932c;
+        color: white;
+    }
+
+    .read_more {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #065f5b;
+        font-style: italic;
+    }
+
+    .read_more:hover {
+        color: rgb(73, 34, 140);
+        font-weight: bold;
+        background-color: #d15757;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        background-color: #e3a0a0;
+        border: 3px solid #b30000;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        width: 70%;
+    }
+
+    th,
+    td {
+        border: 1px solid #b30000;
+        padding: 12px 18px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f4cccc;
+        color: #b30000;
+        font-size: 1.1em;
+    }
+</style>
+
+<body>
+    <div class="content-wrapper">
+        <h1>My blog</h1>
+
+        <h3>Contents</h3>
+
+        <table>
+            <tr>
+                <th>Post</th>
+                <th>Theme</th>
+            </tr>
+            <tr>
+                <td><a class="first-post" href="#first-post">First post!</a></td>
+                <td>Mars Exploration</td>
+            </tr>
+            <tr>
+                <td><a class="second-post" href="#second-post">Second post!</a></td>
+                <td>Nature Discovery</td>
+            </tr>
+            <tr>
+                <td><a class="third-post" href="#third-post">Third post!</a></td>
+                <td>Chess Achievement</td>
+            </tr>
+        </table>
+
+        <h2 id="first-post">First post</h2>
+        <h6>
+            NASA’s Perseverance rover made history by successfully landing on Mars! <br>
+            The rover will search for signs of ancient life and collect rock samples. <br>
+            This marks a giant leap for space exploration and human curiosity. <br>
+            The world watched in awe as the rover sent back its first images. <br>
+            The adventure on the Red Planet has just begun!
+            <br>
+            <a class="read_more"
+                href="https://mars.nasa.gov/news/8865/nasas-perseverance-rover-lands-successfully-on-mars/"
+                target="_blank">
+                Read more
+            </a>
+        </h6>
+
+        <h2 id="second-post">Second post</h2>
+        <h6>
+            Scientists have discovered a new species of glowing mushrooms in the Amazon rainforest! <br>
+            These bioluminescent fungi light up the forest floor at night. <br>
+            The discovery could lead to breakthroughs in medicine and technology. <br>
+            Nature continues to surprise us with its hidden wonders. <br>
+            The world is full of amazing secrets waiting to be found!
+            <br>
+            <a class="read_more"
+                href="https://www.nationalgeographic.com/science/article/glowing-mushrooms-discovered-in-brazil"
+                target="_blank">
+                Read more
+            </a>
+        </h6>
+        <p></p>
+
+        <h2 id="third-post">Third post</h2>
+        <h6>
+            A 13-year-old chess prodigy just defeated a grandmaster in a stunning upset! <br>
+            The match lasted hours and kept viewers on the edge of their seats. <br>
+            Experts are calling it one of the most exciting games of the year. <br>
+            The young champion’s strategy and focus amazed everyone watching. <br>
+            The future of chess looks brighter than ever!
+            <br>
+            <a class="read_more" href="https://www.chess.com/news/view/13-year-old-defeats-grandmaster" target="_blank">
+                Read more
+            </a>
+        </h6>
+    </div>
+</body>
+
+</html>
